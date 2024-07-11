@@ -1,0 +1,19 @@
+---
+# Description of the types of training available in the database
+- types:
+  - name: シナリオに基づいた演習
+    category: scenarios
+  - name: トピックに基づいた演習 [N/A]
+    category: topics
+
+# Description of the scenarios available in the training database
+- scenarios:
+
+  # Content inspired by the U.S. NIST "Technical Guide to Information
+  # Security Testing and Assessment"
+  - name: 情報セキュリティテスト＆評価
+    levels:
+      - name: レベル 1
+        content: NIST-level1-content-ja.yml
+        range: NIST-level1-range.yml
+      - name: レベル 2 [N/A]
